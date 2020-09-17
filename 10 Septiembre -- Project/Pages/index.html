@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="../Styles/estilos.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido</h1>
+    </header>
+    <div class="contenedor">
+      <form class="formulario" action="" method="post" >
+
+      <label class="informacion">Usuario</label><br>
+      <input type="text" class="Entrada" id= "user" placeholder="Usuario"><br>
+      <label class = "informacion">Contraseña</label><br>
+      <input type="password" id = "password" class="Entrada" placeholder="Contraseña"><br><br>
+
+      <div id = "Aviso">
+
+      </div>
+
+      <input type="button" class = "btn-ingreso" value="Iniciar Sesion" onclick = "return login()"><br>
+      <input type="button"  class = "btn-registro" value="Registrar Usuario" onclick = "return signin()">
+
+      </form>
+
+    </div>
+    <script type="text/javascript" src = "../Scripts/Script.js"></script>
+
+
+
+  </body>
+</html>
